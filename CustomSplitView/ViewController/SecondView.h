@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SecondView.h
 //  CustomSplitView
 //
 //  Created by Pantech - Milan on 05/03/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface SecondView : UIView
 
 @end

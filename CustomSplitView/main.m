@@ -2,8 +2,8 @@
 //  main.m
 //  CustomSplitView
 //
-//  Created by Movivation - HP on 05/03/13.
-//  Copyright (c) 2013 com.movivation. All rights reserved.
+//  Created by Pantech - Milan on 05/03/13.
+//  Copyright (c) 2013 com.pantech. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E706C65616F31B280059A63D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E706C65416F31B280059A63D /* FirstViewController.m */; };
+		E706C65716F31B280059A63D /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E706C65516F31B280059A63D /* FirstViewController.xib */; };
 		E763662916E5E95900AD00FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E763662816E5E95900AD00FF /* UIKit.framework */; };
 		E763662B16E5E95900AD00FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E763662A16E5E95900AD00FF /* Foundation.framework */; };
 		E763662D16E5E95900AD00FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E763662C16E5E95900AD00FF /* CoreGraphics.framework */; };
@@ -17,10 +19,15 @@
 		E763663D16E5E95900AD00FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E763663C16E5E95900AD00FF /* Default.png */; };
 		E763663F16E5E95900AD00FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E763663E16E5E95900AD00FF /* Default@2x.png */; };
 		E763664116E5E95900AD00FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E763664016E5E95900AD00FF /* Default-568h@2x.png */; };
-		E763664416E5E95900AD00FF /* CustomSplitView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E763664216E5E95900AD00FF /* CustomSplitView.xcdatamodeld */; };
+		E763664D16E5E99200AD00FF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E763664B16E5E99200AD00FF /* RootViewController.m */; };
+		E763664E16E5E99200AD00FF /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E763664C16E5E99200AD00FF /* RootViewController.xib */; };
+		E763665C16E5F52500AD00FF /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = E763665B16E5F52500AD00FF /* SecondView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E706C65316F31B280059A63D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E706C65416F31B280059A63D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E706C65516F31B280059A63D /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		E763662516E5E95900AD00FF /* CustomSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E763662816E5E95900AD00FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E763662A16E5E95900AD00FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,7 +42,11 @@
 		E763663C16E5E95900AD00FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E763663E16E5E95900AD00FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E763664016E5E95900AD00FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E763664316E5E95900AD00FF /* CustomSplitView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomSplitView.xcdatamodel; sourceTree = "<group>"; };
+		E763664A16E5E99200AD00FF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ViewController/RootViewController.h; sourceTree = "<group>"; };
+		E763664B16E5E99200AD00FF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ViewController/RootViewController.m; sourceTree = "<group>"; };
+		E763664C16E5E99200AD00FF /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = ViewController/RootViewController.xib; sourceTree = "<group>"; };
+		E763665A16E5F52500AD00FF /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondView.h; path = ViewController/SecondView.h; sourceTree = "<group>"; };
+		E763665B16E5F52500AD00FF /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondView.m; path = ViewController/SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +97,15 @@
 			children = (
 				E763663916E5E95900AD00FF /* AppDelegate.h */,
 				E763663A16E5E95900AD00FF /* AppDelegate.m */,
-				E763664216E5E95900AD00FF /* CustomSplitView.xcdatamodeld */,
+				E763664A16E5E99200AD00FF /* RootViewController.h */,
+				E763664B16E5E99200AD00FF /* RootViewController.m */,
+				E763664C16E5E99200AD00FF /* RootViewController.xib */,
+				E763665A16E5F52500AD00FF /* SecondView.h */,
+				E763665B16E5F52500AD00FF /* SecondView.m */,
 				E763663116E5E95900AD00FF /* Supporting Files */,
+				E706C65316F31B280059A63D /* FirstViewController.h */,
+				E706C65416F31B280059A63D /* FirstViewController.m */,
+				E706C65516F31B280059A63D /* FirstViewController.xib */,
 			);
 			path = CustomSplitView;
 			sourceTree = "<group>";
@@ -161,6 +179,8 @@
 				E763663D16E5E95900AD00FF /* Default.png in Resources */,
 				E763663F16E5E95900AD00FF /* Default@2x.png in Resources */,
 				E763664116E5E95900AD00FF /* Default-568h@2x.png in Resources */,
+				E763664E16E5E99200AD00FF /* RootViewController.xib in Resources */,
+				E706C65716F31B280059A63D /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +193,9 @@
 			files = (
 				E763663716E5E95900AD00FF /* main.m in Sources */,
 				E763663B16E5E95900AD00FF /* AppDelegate.m in Sources */,
-				E763664416E5E95900AD00FF /* CustomSplitView.xcdatamodeld in Sources */,
+				E763664D16E5E99200AD00FF /* RootViewController.m in Sources */,
+				E763665C16E5F52500AD00FF /* SecondView.m in Sources */,
+				E706C65616F31B280059A63D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +275,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomSplitView/CustomSplitView-Prefix.pch";
 				INFOPLIST_FILE = "CustomSplitView/CustomSplitView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,7 +288,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomSplitView/CustomSplitView-Prefix.pch";
 				INFOPLIST_FILE = "CustomSplitView/CustomSplitView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,21 +314,9 @@
 				E763664916E5E95900AD00FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E763664216E5E95900AD00FF /* CustomSplitView.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E763664316E5E95900AD00FF /* CustomSplitView.xcdatamodel */,
-			);
-			currentVersion = E763664316E5E95900AD00FF /* CustomSplitView.xcdatamodel */;
-			path = CustomSplitView.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E763661D16E5E95900AD00FF /* Project object */;
 }
